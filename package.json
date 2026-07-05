@@ -1,13 +1,13 @@
 {
-  "name": "APPNAME",
+  "name": "phaser-test",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b"
+    "dev": "pnpm --filter @phaser-test/web dev",
+    "build": "pnpm --filter @phaser-test/web build",
+    "preview": "pnpm --filter @phaser-test/web preview",
+    "typecheck": "pnpm --filter @phaser-test/web exec tsc -b"
   }
 }
